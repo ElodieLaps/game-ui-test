@@ -1,0 +1,68 @@
+[
+   {
+      "type": "HEALTH",
+      "label": "points de vie",
+      "maxValue": 100,
+      "currentValue": 50
+   },
+   {
+      "type": "MANA",
+      "label": "mana",
+      "maxValue": 50,
+      "currentValue": 25
+   },
+   {
+      "type": "EXPERIENCE",
+      "label": "experience",
+      "maxValue": 1800,
+      "currentValue": 652
+   },
+   {
+      "type": "PHYSICAL_DAMAGES",
+      "label": "dégâts physiques",
+      "maxValue": 50,
+      "currentValue": 50
+   },
+   {
+      "type": "MAGIC_DAMAGES",
+      "label": "dégâts magiques",
+      "maxValue": 15,
+      "currentValue": 15
+   },
+   {
+      "type": "ARMOR",
+      "label": "armure",
+      "maxValue": 50,
+      "currentValue": 50
+   },
+   {
+      "type": "PROTECTION",
+      "label": "protection magique",
+      "maxValue": 15,
+      "currentValue": 15
+   },
+   {
+      "type": "BLESSING",
+      "label": "bénédiction",
+      "maxValue": 50,
+      "currentValue": 50
+   },
+   {
+      "type": "AURA",
+      "label": "aura",
+      "maxValue": 50,
+      "currentValue": 50
+   },
+   {
+      "type": "SPEED",
+      "label": "vitesse",
+      "maxValue": 15,
+      "currentValue": 15
+   },
+   {
+      "type": "DODGE",
+      "label": "esquive",
+      "maxValue": 15,
+      "currentValue": 15
+   }
+]

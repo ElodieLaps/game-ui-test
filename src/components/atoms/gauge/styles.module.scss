@@ -1,0 +1,62 @@
+@import "../../../assets/styles/variables.module.scss";
+@import "../../../assets/styles/mixins.module.scss";
+
+.gauge {
+   &__text {
+      display: flex;
+      color: $black;
+      justify-content: space-between;
+      align-items: flex-end;
+      margin-bottom: 4px;
+      font-family: $font-roboto-sans;
+      font-weight: $font-regular;
+      line-height: auto;
+      @include fontSize(14);
+   }
+
+   &__label::first-letter {
+      text-transform: uppercase;
+   }
+
+   &__values {
+      font-weight: $font-bold;
+      text-align: flex-end;
+
+      span {
+         @include fontSize(10);
+      }
+   }
+
+   &__container {
+      border: 1px solid $grey85;
+      border-radius: 8px;
+      overflow: hidden;
+      background-color: $white100;
+      padding: 1px;
+   }
+
+   &__current {
+      border-radius: 8px;
+      height: 6px;
+
+      &__green {
+         background-color: $green70;
+      }
+
+      &__orange {
+         background-color: $orange60;
+      }
+
+      &__red {
+         background-color: $red40;
+      }
+
+      &__blue {
+         background-color: $turquoise40;
+      }
+
+      &__purple {
+         background-color: $purple70;
+      }
+   }
+}

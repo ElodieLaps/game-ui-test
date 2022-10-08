@@ -1,0 +1,24 @@
+@import "../../../assets/styles/variables.module.scss";
+@import "../../../assets/styles/mixins.module.scss";
+
+.statistics {
+   padding: 16px;
+   width: fit-content;
+   border: 1px solid $grey85;
+   border-radius: 8px;
+
+   li {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      gap: 8px;
+   }
+
+   &__item {
+      margin-bottom: 8px;
+
+      &:last-child {
+         margin-bottom: 0px;
+      }
+   }
+}

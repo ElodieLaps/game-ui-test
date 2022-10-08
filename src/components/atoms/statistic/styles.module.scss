@@ -1,0 +1,37 @@
+@import "../../../assets/styles/variables.module.scss";
+@import "../../../assets/styles/mixins.module.scss";
+
+.statistic {
+   &__text {
+      color: $black;
+      font-family: $font-roboto-sans;
+      font-weight: $font-regular;
+      line-height: auto;
+      @include fontSize(14);
+   }
+
+   &__label::first-letter {
+      text-transform: uppercase;
+   }
+
+   &__value {
+      font-weight: $font-bold;
+      text-align: end;
+
+      &__default {
+         color: $black;
+      }
+
+      &__buffed {
+         color: $orange60;
+      }
+
+      &__nerfed {
+         color: $red40;
+      }
+   }
+
+   &__unit {
+      @include fontSize(10);
+   }
+}

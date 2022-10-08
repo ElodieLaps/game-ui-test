@@ -16,9 +16,12 @@
     "incremental": true,
     "baseUrl": "src",
     "paths": {
-      "@/*": ["/*"]
+      "@/components/*": ["components/*"],
+      "@/styles/*": ["assets/styles/*"],
+      "@/mock/*": ["mock/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "compileOnSave": true,
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "jest.config.js"],
   "exclude": ["node_modules"]
 }

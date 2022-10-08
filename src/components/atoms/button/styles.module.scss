@@ -1,0 +1,36 @@
+@import "../../../assets/styles/variables.module.scss";
+@import "../../../assets/styles/mixins.module.scss";
+
+$color-button: $turquoise40;
+
+.button {
+  background-color: transparent;
+  line-height: 16px;
+  @include fontSize(14);
+  text-align: center;
+  padding: 8px 16px;
+  &::first-letter {
+    text-transform: uppercase;
+  }
+
+  &__primary,
+  &__secondary {
+    border-radius: 8px;
+  }
+
+  &__primary {
+    background-color: $color-button;
+    color: $white100;
+  }
+
+  &__secondary {
+    background-color: transparent;
+    border: 1px solid $color-button;
+  }
+
+  &__link {
+    &:hover {
+      color: $color-button;
+    }
+  }
+}

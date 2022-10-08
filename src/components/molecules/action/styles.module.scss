@@ -1,0 +1,8 @@
+@import "../../../assets/styles/variables.module.scss";
+@import "../../../assets/styles/mixins.module.scss";
+
+.action {
+  &__modal {
+    margin-top: 8px;
+  }
+}

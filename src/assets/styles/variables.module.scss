@@ -1,5 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+//color
 $primary-color: #bae69d;
+$grey85: #d9d9d9;
+$grey35: #595959;
+$grey15: #262626;
+
+$black: $grey15;
+$white100: #ffffff;
+
+$turquoise40: #00cccc;
+
+$orange60: #ff9933;
+$green70: #66ff99;
+$red40: #cc0000;
+$purple70: #9966ff;
+
+//font weight
+$font-light: 300;
+$font-regular: 400;
+$font-bold: 500;
+
+//font family
+$font-roboto-sans : 'Roboto',
+sans-serif;
+
+//shadow
+$shadow-regular: 5px 5px 20px 5px rgba(0,0,0,0.25);
+
 
 :export {
    primaryColor: $primary-color;
+   fontBold: $font-bold;
+   fontRegular: $font-regular;
+   fontRobotoSant: $font-roboto-sans;
+   grey35: $grey35;
+   grey15: $grey15;
+   black: $black;
+   shadow-regular: $shadow-regular;
 }

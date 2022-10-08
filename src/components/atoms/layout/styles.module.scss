@@ -1,0 +1,8 @@
+@import "../../../assets/styles/variables.module.scss";
+@import "../../../assets/styles/mixins.module.scss";
+
+.layout {
+    &__content {
+        padding: 16px;
+    }
+}

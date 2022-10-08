@@ -1,0 +1,15 @@
+@import "../../../assets/styles/variables.module.scss";
+@import "../../../assets/styles/mixins.module.scss";
+
+.modal {
+  &__container {
+    width: fit-content;
+    padding: 16px;
+    background-color: $white100;
+    position: absolute;
+    border: 1px solid $grey85;
+    border-radius: 8px;
+    box-shadow: $shadow-regular;
+    -webkit-box-shadow: $shadow-regular;
+  }
+}

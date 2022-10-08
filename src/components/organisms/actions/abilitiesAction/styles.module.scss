@@ -1,0 +1,12 @@
+@import "./../../../../assets/styles/variables.module.scss";
+@import "./../../../../assets/styles/mixins.module.scss";
+
+.abilities_action {
+  &__list {
+    p {
+      display: flex;
+      justify-content: space-between;
+      gap: 8px;
+    }
+  }
+}

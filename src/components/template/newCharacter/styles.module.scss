@@ -1,0 +1,39 @@
+@import "../../../assets/styles/variables.module.scss";
+@import "../../../assets/styles/mixins.module.scss";
+
+.newCharacter {
+  display: flex;
+
+  &__profil {
+  }
+  &__name {
+  }
+
+  &__inputName {
+    border: none;
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+
+    &__genderDisabled {
+        button {
+            color: grey;
+            cursor: default;
+        }
+        button:hover {
+            color: grey;
+        }
+    }
+    &__selected {
+      button {
+        text-decoration: underline;
+      }
+    }
+
+    &__gender {
+      display: flex;
+    }
+  }
+}
